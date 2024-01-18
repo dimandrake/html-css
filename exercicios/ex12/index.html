@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeo com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo Vídeos hospenados localmente</h1>
+    <p>Este vídeo está hospédado no meu próprio servidor.</p>
+    <!--Forma mais simples<video src="midia/Fogos-De-Artificio.mp4" width="500" controls></video>-->
+    <video width="560" poster="imagens/fogos.png" controls>
+        <source src="midia/Fogos-De-Artificio.mp4" type="video/mp4">
+        <source src="midia/Fogos-De-Artificio.webm" type="video/webm">
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeos.</p>
+    </video>
+
+    <h1>Inserindo vídeos do YOUTUBE</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/MXcb3ZGyRdA?si=etm0MqxDUWzcd9Bs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</body>
+</html>

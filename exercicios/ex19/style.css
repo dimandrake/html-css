@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+/*tudo que tiver id em HTML em CSS vai ser # (só pode ter 1 pincipal por docuemnto)
+ tuo que tiver class em html em CSS é . (pode ter varios)
+ */
+body{
+    background-color: #d6fde9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: #1e402f;
+}
+
+/*h1 é opcional*/#principal{
+    text-align: center;
+    background-color: #3c805e;
+    color: white;
+}
+
+h2{
+    color: #3c805e;
+}
+
+.basico{
+    color: #3c805e;
+}
+.intermediario{
+    color: #80793c;
+}
+.avancado{
+    color: #803c3c;
+}
+
+.destaque{
+    background-color: rgba(221, 221, 57, 0.623);
+}
